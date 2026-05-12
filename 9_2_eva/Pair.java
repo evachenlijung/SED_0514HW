@@ -1,0 +1,1 @@
+public record Pair(int tabs, Component component){}
