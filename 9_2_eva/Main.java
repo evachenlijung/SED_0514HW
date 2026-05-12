@@ -15,7 +15,6 @@ public class Main{
             String question = "<Question>";
 
             BufferedReader reader = new BufferedReader(new FileReader(args[0]));
-            // StringBuilder sb = new StringBuilder();
             String line;
 
             if((line = reader.readLine()) != null && !xml.equals(line.trim())){
