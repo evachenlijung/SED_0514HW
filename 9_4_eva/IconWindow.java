@@ -1,7 +1,7 @@
 public class IconWindow extends Window{
 
-    public IconWindow(WindowDisplayer displayer){
-        super(displayer);
+    public IconWindow(){
+        super();
     }
 
     public void drawBorder(){

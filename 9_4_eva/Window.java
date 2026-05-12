@@ -1,7 +1,10 @@
 public class Window{
     private WindowDisplayer displayer;
 
-    public Window(WindowDisplayer displayer){
+    public Window(){
+    }
+
+    public void setDisplsyer(WindowDisplayer displayer){
         this.displayer = displayer;
     }
 
@@ -12,4 +15,8 @@ public class Window{
     public void drawRectangle(){
         displayer.drawRectangle();
     }
+
+    public void drawBorder(){}
+
+    public void drawCloseBox(){}
 }

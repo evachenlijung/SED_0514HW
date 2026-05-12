@@ -1,7 +1,7 @@
 public class TransientWindow extends Window{
 
-    public TransientWindow(WindowDisplayer displayer){
-        super(displayer);
+    public TransientWindow(){
+        super();
     }
 
     public void drawCloseBox(){
